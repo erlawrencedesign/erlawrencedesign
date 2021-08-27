@@ -28,7 +28,7 @@
  <div class="container">
    <div id="header" class="grid_12">
      <div id="nav">
-        <a href="https://erinrlawrence.myportfolio.com/welcome"><img class="portfolio-button"src="resources/images/buttons/1portfolio.png"> </a>
+        <a href="https://erinrlawrence.myportfolio.com/"><img class="portfolio-button"src="resources/images/buttons/1portfolio.png"> </a>
      </div> <!-- nav div -->
    </div> <!-- header div -->
 
