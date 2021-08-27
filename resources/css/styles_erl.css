@@ -1,0 +1,439 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Media Queries
+  5. Component Styles
+  6. Page Styles
+  7. Bootstrap Elements
+======================================== */
+
+/* 1. Global Styles
+======================================== */
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16pt;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  .main_bkgrd {
+    background-color: hsla(204, 15, 85, 1.0);
+    background-image: url("../images/backgrd_imgs/bkgrd_main_notflat3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  
+  #header {
+    height: 100px;
+    width: 100%;
+    margin: 0;
+  }
+  
+  
+  /* 2. Typography Styles
+  ======================================== */
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2.0rem;
+  }
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 1.0rem;
+  }
+
+  h4, p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 200;
+  }
+
+  footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.5rem;
+    font-weight: 200;
+  }
+  
+
+  strong {
+    font-weight: 700;
+  }
+  
+  em {
+    font-style: italic;
+  }
+
+  .center {
+    text-align: center;
+  }
+  
+  
+  
+  /* 3. Structure Styles
+  ======================================== */
+
+  #nav img {
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
+    height: auto;
+    width: 120px;
+
+  }
+  .sidebar-contents img {
+    float: left;
+    height: auto;
+    width: 120px;
+    margin-left: 2%;
+  }
+
+  
+  .sidebar {
+    width: 140px;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    float: left;
+  
+  }
+   
+  .sidebar-contents a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 0.75rem;
+    color: #b6d8c5;
+    text-decoration: none;
+    line-height: 3rem;
+  }
+
+  
+
+  a:hover .aboutme-button{
+    opacity: 0.5;
+  }
+
+  a:hover .home-button{
+    opacity: 0.5;
+  }
+
+  a:hover .portfolio-left{
+    opacity: 0.5;
+  }
+
+  a:hover .portfolio-button{
+    opacity: 0.5;
+  }
+
+  a:hover .work-button{
+    opacity: 0.5;
+  }
+
+  a:hover .talk-button{
+    opacity: 0.5;
+  }
+  
+  a:active img{
+    border: 3px solid #9000b3;
+    border-radius: 10px;
+    opacity: 1.0;
+  }
+
+  .links h3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #a47fad;
+    font-weight: 200;
+    line-height: 2.0;
+  }
+
+  a:hover .links {
+    color: #9000b3;
+    font-weight: 400;
+  }
+  
+  .main_logo video {
+    float: center;
+    margin-left: 25%;
+    margin-top: 40px;
+    border: 1.5px solid #a47fad;
+    border-bottom: 3.5px solid #a47fad;
+    border-radius: 5px;
+  }
+  
+  .main_logo img {
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+  }
+  
+  .selfie {
+    float: right;
+    margin: 60px;
+    border: 1.5px solid #b6b133;
+    border-radius: 5px;
+    opacity: 0.8;
+    visibility: visible !important;
+  }
+  
+  .body-div {
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 20%;
+    background-image: linear-gradient(180deg, #e4e4e4, #b9cdda);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    
+  }
+  
+  .about-div {
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: linear-gradient(180deg, #f0f0f0, #fff);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    
+  }
+  
+  
+  .weight_500 {
+    font-family: haboro-contrast-normal, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1160px;
+    padding: 0 15px;
+  }
+  
+  .favicons {
+    float: center;
+    margin-left: 50%;
+  }
+  
+  .favicon-contents img {
+    margin-top: 60px;
+    margin-right: 10px;
+    border: 1px solid #669898;
+    border-radius: 20px;
+  }
+  
+  /* Site Footer */
+  footer {
+    float: center;
+    text-align: center;
+    margin-left: 12%;
+    padding-top: 50px;
+    color: #669898;
+  }
+  
+  
+  /* 4. Media Queries 
+  ======================================= */ 
+  
+  @media(min-width: 768px) and (max-width: 960px) {
+    #header img {
+      margin-top: 5%;
+      margin-left: 2%;
+      float: left;
+      height: auto;
+      max-width: 200px;
+    }
+  
+    #nav .crescent_L {
+      visibility: hidden;
+    }
+    
+    #nav .crescent_R {
+      visibility: hidden;
+    }  
+  
+    #header button {
+      min-width: 130px;
+      height: auto;
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+  
+    .gears img {
+      height: auto;
+      width: auto;
+    }
+  
+    .main_logo video {
+      float: center;
+      height: auto;
+      width: 75%;
+      margin-left: 40px;
+    }
+    .main_logo img {
+      height: 0px;
+      width: 0px;
+      visibility: hidden;
+    }
+  
+    footer {
+      text-align: center;
+    }
+  
+  }
+  
+  @media(min-width: 360px) and (max-width: 767px) {
+    #header img {
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  
+    #nav .crescent_L {
+      visibility: hidden;
+    }
+    
+    #nav .crescent_R {
+      visibility: hidden;
+    }
+    
+    #header button {
+      visibility: hidden;
+    }
+  
+    .sidebar {
+      width: 100px;
+    }
+  
+    .sidebar-contents a {
+      font-size: 0.75rem;
+      line-height: 3rem;
+      
+    }
+  
+    .main_logo video {
+      float: center;
+      height: 0;
+      width: 0; 
+      margin-left: 2%;
+      visibility: hidden !important;
+    }
+  
+    .main_logo img {
+      float: center;
+      width: 50%;
+      height: auto;
+      margin-left:2%;
+      visibility: visible;
+    }
+  
+    .selfie {
+      visibility: hidden;
+    }
+    
+    .body-div, .about-div {
+      width: 65%;
+      height: auto;
+      margin-top: 10%;
+      margin-bottom: 5%;
+      margin-left: 18%;
+      margin-right: 10%;
+      background-image: linear-gradient(180deg, #f0f0f0, #fff);
+      background-size: 100%;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-text-fill-color: transparent;
+      
+    }
+  
+  
+    
+    .weight_500 {
+      font-size: 0.75rem;
+      font-family: haboro-contrast-normal, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      margin-left: 0;
+    }
+  
+    h2 {
+      font-size: 1.4rem;
+    }
+  
+    p {
+      font-size: 0.75rem;
+      margin-left: 25%;
+      margin-right: 0;
+      line-height: 0.75rem;
+    }
+  
+  }
+  
+  
+  
+  /* 5. Component Styles
+  ======================================== */
+  
+  
+  /* 6. Page Styles
+  ======================================== */
+  
+  /* 7. Bootstrap Styles
+  ======================================== */
+  .mb-3 {
+    float: center;
+    width: 30%;
+    margin-left: 30%;
+  }
+  
+  label {
+    font-family: 'Fino-Sans';
+    font-weight: 1.0rem;
+    color: #fcfcfc;
+  }
+  .carousel {
+    margin-bottom: 60px;
+  }
+  .carousel-caption {
+    z-index: 10;
+  }
+  
+  .carousel-control{
+    height:350px;
+  }
+  
