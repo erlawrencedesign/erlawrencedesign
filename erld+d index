@@ -36,7 +36,7 @@
   <aside class="sidebar">
     <section class="sidebar-contents">
       <a href="about_me.html"><img class="aboutme-button" src="resources/images/buttons/1about.png"></a><br/>
-      <a href="https//erinrlawrence.myportfolio.com/welcome"><img class="portfolio-left" src="resources/images/buttons/1portfolio.png"></a><br/>
+      <a href="https://erinrlawrence.myportfolio.com/"><img class="portfolio-left" src="resources/images/buttons/1portfolio.png"></a><br/>
       <a href="work.html"><img class="work-button" src="resources/images/buttons/1work.png"></a><br/>
       <a href="mailto:contact@erinrlawrence.net"><img class="talk-button" src="resources/images/buttons/1talk.png"></a><br/>
     </section>
