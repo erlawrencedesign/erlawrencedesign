@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO -->
+  <meta name="description" content="E R Lawrence Development + Design - UX, User Experience, Visual Design, UI, Prototyping, Web Design, Mobile Design, Web Development for Your Client-Side Needs">
+
+  <!-- Font Import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway&display=swap" rel="stylesheet">
+
+
+  <!-- Global Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="resources/css/styles_erl.css"> <!-- global stylesheet -->
+
+  
+  <!-- Tab Title -->
+  <title>E R Lawrence Development + Design</title>
+
+</head>
+
+<body class="main_bkgrd">
+  <!-- Header Navbar Component -->
+ <div class="container">
+   <div id="header" class="grid_12">
+     <div id="nav">
+        <a href="https://erinrlawrence.myportfolio.com/welcome"><img class="portfolio-button"src="resources/images/buttons/1portfolio.png"> </a>
+     </div> <!-- nav div -->
+   </div> <!-- header div -->
+
+  <!-- Left Navbar Component -->
+  <aside class="sidebar">
+    <section class="sidebar-contents">
+      <a href="about_me.html"><img class="aboutme-button" src="resources/images/buttons/1about.png"></a><br/>
+      <a href="https//erinrlawrence.myportfolio.com/welcome"><img class="portfolio-left" src="resources/images/buttons/1portfolio.png"></a><br/>
+      <a href="work.html"><img class="work-button" src="resources/images/buttons/1work.png"></a><br/>
+      <a href="mailto:contact@erinrlawrence.net"><img class="talk-button" src="resources/images/buttons/1talk.png"></a><br/>
+    </section>
+  </aside>
+
+  <!-- Main Logo -->
+  <figure class="main_logo">
+    <video src="resources/videos/ERL logo animate white bk.mp4"
+    height="250px"
+    width="auto"
+    autoplay 
+    muted
+    loop>Video Not Supported</video>
+  </figure>
+
+  <!-- Body Div -->
+   <div class="body-div">
+    <h3 class="center">Refined, practical client-side solutions.</h3>
+    <p class="center">Specializing in UX/UI design, prototyping, visual and web design.</p>
+    
+ </div> <!-- body div -->
+
+ <aside class="favicons">
+  <section class="favicon-contents">
+    <a href="https://www.facebook.com/erlawrencedesign/"><img src="resources/images/favicons/facebook@2x.png" height="30px"></a>
+    <a href="https://www.linkedin.com/in/erinrlawrence/"><img src="resources/images/favicons/linkedin@2x.png" height="30px"></a>
+    <a href="https://twitter.com/erldevelopment"><img src="resources/images/favicons/twitter@2x.png" height="30px"></a>
+    <a href="mailto:contact@erinrlawrence.net"><img src="resources/images/favicons/email@2x.png" height="30px"></a>
+  </section>
+</aside>
+
+</div> <!-- container div -->
+
+  
+  <!-- Footer -->
+  <footer>&copy; 2021 E R Lawrence Development + Design</footer>
+
+
+</body>
+</html>
